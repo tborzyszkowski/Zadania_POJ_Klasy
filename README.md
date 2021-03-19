@@ -1,4 +1,4 @@
-# Zadania laboratoryjne - powtórka z klasy i konstruktory
+# Zadania laboratoryjne: klasy i konstruktory
 
 | Ilość punktów do zdobycia  | Hard deadline   |
 | ------------ | ------------ |
@@ -6,19 +6,19 @@
 
 
 
-###Zadanie 1 (1 punkt)
+### Zadanie 1 (1 punkt)
 
 Zaimplementuj klasę `Card` reprezentującą pojedynczą kartę do gry z talii kart. Klasa powinna przechowywać `wartość` i `kolor`: kier, karo, pik, trefl. W zadaniu użyj typu wyliczeniowego.
 Napisz program testujący, który stworzy trzy różne obiekty klasy `Card`.
 
-###Zadanie 2 (2 punkty)
+### Zadanie 2 (2 punkty)
 
 Zaimplementuj klasę `Student`, do przechowywania `imienia`, `nazwiska`, `numer indeksu` i `obecność` (wyrażonej w procentach) `oceny z POJ` (typu int).
 Jeżeli podczas tworzenia obiektu nie zostało przekazane imię i nazwisko, pola powinny być ustawione wartością "Unknown".
 Dodaj odpowiednie metody set i get do wszystkich pól klasy. Jeżeli obecnocność jest mniejsza niż 50%, student powinien otrzymać ocenę 2. 
 Przetestuj program, tworząc trzy różne obiekty klasy `Student`.
 
-###Zadanie 3 (3 punkty)
+### Zadanie 3 (3 punkty)
 
 Zaimplementuj klasę `MyDate`, która przechowuje informację: `month` (typu int), `day`(typu int) i `year` (type int).
 Klasa powinna zawierać konstruktor, który inicjalizuje zmienne, sprawdzając poprawność zakresów (day 0-31, month 0-12, year 1990-2050).
@@ -26,7 +26,7 @@ Zaimplementuj methody set i get dla wszystkich pól.
 Dodaj metodę `displayDate`, która wyświetli pola z uwzględnieniem zer nieznaczących oddzielone znakiem "/", np `21/03/2051`.
 Przetestuj zaimplementowaną klasę.
 
-###Zadanie 4 (3 punkty)
+### Zadanie 4 (3 punkty)
 
 Zaimplementuj klasę `Clock`. Klasa zawierać będzie pola: `hours, minutes, seconds`. Zmienna `hours` przyjmuje wartości z zakresu 0-23, `minutes` z zakresu 0-59, `seconds` 0-59.
 Dodaj trzy konstruktor:
@@ -41,7 +41,7 @@ Dodaj metody:
 - `toString()`, bez parametrów, zwraca reprezentację obiektu w postaci **"[hh-mm-ss]"**, uzupełnioną o nieznaczące zera, na przykład: **"[03:12:56]"**. 
 Przetestuj zaimplementowany program. 
 
-### Zadanie 5 (3 punkty)
+###  Zadanie 5 (3 punkty)
 
 Zaimplementuj klasę `Numbers`. Dodaj konstruktor który przyjmuje trzy liczby typu `int`. Dodaj metody:
 - `sum()`, zwraca sumę liczb;
@@ -51,7 +51,7 @@ Zaimplementuj klasę `Numbers`. Dodaj konstruktor który przyjmuje trzy liczby t
 - `geometric()`, zwraca średnią geometryczną liczb;
 Przetestuj zaimplementowany program.
 
-###Zadanie 6 (3 punkty)
+### Zadanie 6 (3 punkty)
 
 Zaimplementuj klasę `Invoice` reprezentującą fakturę dla sklepu. Klasa przechowuje następujące informacje: 
 `product_number (typ String)`, `prodcut_description` (typ String), `quantity`(typ int) i` `pricePerItem`(typ double).
