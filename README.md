@@ -1,15 +1,18 @@
-# Zadania laboratoryjne: klasy i konstruktory
+# Zadania laboratoryjne: klasy, konstruktory, metody i testy
 
 | Ilość punktów do zdobycia  | Hard deadline   |
 | ------------ | ------------ |
-| 15  | 10.04.2021  23:59|
+| 15  | 23.04.2023  23:59|
 
 
 
 ## Zadanie 1 (1 punkt)
 
-Zaimplementuj klasę `Card` reprezentującą pojedynczą kartę do gry z talii kart. Klasa powinna przechowywać `wartość` i `kolor`: kier, karo, pik, trefl. W zadaniu użyj typu wyliczeniowego.
-Napisz program testujący, który stworzy trzy różne obiekty klasy `Card`.
+Zaimplementuj klasę `Card` reprezentującą pojedynczą kartę do gry z talii kart. 
+Klasa powinna przechowywać `wartość` i `kolor`: kier, karo, pik, trefl. W zadaniu użyj typu wyliczeniowego.
+Klasa powinna posiadać odpowiednie konstruktory, settery, getery oraz metodę roztrzygającą czy dana karta przebija drugą.
+
+Napisz program testujący (testy jednostkowe), który stworzy trzy różne obiekty klasy `Card` i sprawdzi poprawność działania metod.
 
 ## Zadanie 2 (2 punkty)
 
@@ -59,4 +62,4 @@ Zaimplementuj klasę `Invoice` reprezentującą fakturę dla sklepu. Klasa przec
 Dodaj metodę:
 - `Amount`, które zwraca iloczyn `quantity` i `pricePerItem`. Jeżeli `pricePerItem` nie jest dodatnia, `Amount` powinien zwrócić 0. 
 Jeżeli `quantity` nie jest dodatnie, `Amount` powinna zwrócić 0.
-Przetestuj zaimplementowany program.
+Przetestuj zaimplementowaną klasę.
