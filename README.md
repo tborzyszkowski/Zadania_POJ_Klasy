@@ -70,4 +70,5 @@ Jeżeli `quantity` nie jest dodatnie, `Amount` powinna zwrócić 0.
 Przetestuj zaimplementowaną klasę.
 
 ## UWAGA:
-W powyższych zadaniach stosować zasady Clean Code i [SOLID](https://www.samouczekprogramisty.pl/solid-czyli-dobre-praktyki-w-programowaniu-obiektowym/).
+- powyższych zadaniach stosować zasady Clean Code i [SOLID](https://www.samouczekprogramisty.pl/solid-czyli-dobre-praktyki-w-programowaniu-obiektowym/)
+- dla implementowanej funkcjonalności przygotuj testy jednostkowe.
