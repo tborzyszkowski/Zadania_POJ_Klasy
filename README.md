@@ -1,9 +1,14 @@
 # Zadania laboratoryjne: klasy, konstruktory, metody i testy
 
-| Ilość punktów do zdobycia  | Hard deadline   |
+| Termin oddania   | Punkty |
 | ------------ | ------------ |
-| 15  | 23.04.2023  23:59|
+| 28.04.2024  23:00 | 15 |
 
+--- 
+Przekroczenie terminu o **n** zajęć wiąże się z karą:
+- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
+
+--- 
 
 
 ## Zadanie 1 (1 punkt)
@@ -63,3 +68,6 @@ Dodaj metodę:
 - `Amount`, które zwraca iloczyn `quantity` i `pricePerItem`. Jeżeli `pricePerItem` nie jest dodatnia, `Amount` powinien zwrócić 0. 
 Jeżeli `quantity` nie jest dodatnie, `Amount` powinna zwrócić 0.
 Przetestuj zaimplementowaną klasę.
+
+## UWAGA:
+W powyższych zadaniach stosować zasady Clean Code i [SOLID](https://www.samouczekprogramisty.pl/solid-czyli-dobre-praktyki-w-programowaniu-obiektowym/).
